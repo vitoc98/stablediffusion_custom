@@ -154,8 +154,8 @@ def predict(input_image, prompt, steps, num_samples, scale, seed, eta, noise_lev
     )
     return result
 
-
-sampler = initialize_model(sys.argv[1], sys.argv[2])
+# REMOVE
+#sampler = initialize_model(sys.argv[1], sys.argv[2])
 
 # REMOVE
 c='''
